@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -11.556
+TNS   : -2445.205
+
+Type  : Slow 1200mV 85C Model Setup 'PCID:instructions|ProgramCounter:PC|out[10]'
+Slack : -6.033
+TNS   : -65.562
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.479
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'PCID:instructions|ProgramCounter:PC|out[10]'
+Slack : 1.334
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -326.504
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PCID:instructions|ProgramCounter:PC|out[10]'
+Slack : 0.381
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -10.313
+TNS   : -2180.673
+
+Type  : Slow 1200mV 0C Model Setup 'PCID:instructions|ProgramCounter:PC|out[10]'
+Slack : -5.519
+TNS   : -60.006
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.496
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PCID:instructions|ProgramCounter:PC|out[10]'
+Slack : 1.278
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -325.568
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PCID:instructions|ProgramCounter:PC|out[10]'
+Slack : 0.422
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -5.270
+TNS   : -1111.239
+
+Type  : Fast 1200mV 0C Model Setup 'PCID:instructions|ProgramCounter:PC|out[10]'
+Slack : -2.433
+TNS   : -25.897
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.009
+TNS   : -0.009
+
+Type  : Fast 1200mV 0C Model Hold 'PCID:instructions|ProgramCounter:PC|out[10]'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -273.301
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PCID:instructions|ProgramCounter:PC|out[10]'
+Slack : 0.301
+TNS   : 0.000
+
+------------------------------------------------------------
