@@ -1,0 +1,361 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/simulation/modelsim
+vALU
+Z1 !s110 1651582796
+!i10b 1
+!s100 WGY^FEAC3>[XWm?eEA1YH3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IF9NQSmTA8lU21]B=X^]7m3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1651437167
+8C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ALU.v
+FC:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ALU.v
+!i122 2
+L0 1 37
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1651582796.000000
+!s107 C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)|C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ALU.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)}
+Z8 tCvgOpt 0
+n@a@l@u
+vDecoder
+Z9 !s110 1651582797
+!i10b 1
+!s100 iniD^EQ6_On;V7mNK?QO?1
+R2
+IMh3dBdL6K[^h8<T;hC:VZ0
+R3
+R0
+w1650825297
+8C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Decoder.v
+FC:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Decoder.v
+!i122 7
+L0 1 40
+R4
+r1
+!s85 0
+31
+Z10 !s108 1651582797.000000
+!s107 C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)|C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Decoder.v|
+!i113 1
+R6
+R7
+R8
+n@decoder
+vimmGen
+R9
+!i10b 1
+!s100 hVo?b:@WS<FR8XUlgKn7h2
+R2
+IHU26BgfHYU[IF0SLhF4UA0
+R3
+R0
+w1651369642
+8C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/immGen.v
+FC:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/immGen.v
+!i122 12
+L0 1 38
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/immGen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)|C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/immGen.v|
+!i113 1
+R6
+R7
+R8
+nimm@gen
+vInstructionDecoder
+R1
+!i10b 1
+!s100 EVlf0MFD48dkKIS0[Jl7L1
+R2
+IIDkN0VGKide3Pi`V>`F1_0
+R3
+R0
+w1650731343
+8C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/InstructionDecoder.v
+FC:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/InstructionDecoder.v
+!i122 3
+L0 1 14
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/InstructionDecoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)|C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/InstructionDecoder.v|
+!i113 1
+R6
+R7
+R8
+n@instruction@decoder
+vLab8
+R1
+!i10b 1
+!s100 h;>zW@QdmlWR6@[A@lKY?3
+R2
+ITDkSe4biEL>I_ZST^5<5f3
+R3
+R0
+w1651431542
+8C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Lab8.v
+FC:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Lab8.v
+!i122 0
+L0 1 45
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Lab8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)|C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Lab8.v|
+!i113 1
+R6
+R7
+R8
+n@lab8
+vLab8_testbench
+R9
+!i10b 1
+!s100 M6oeW`?XC8Ra@9@a_^oc43
+R2
+IMEjf`7LfMGQm<Eo?^enlT2
+R3
+R0
+w1651494216
+8C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Lab8_testbench.v
+FC:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Lab8_testbench.v
+!i122 13
+L0 1 130
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Lab8_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)|C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Lab8_testbench.v|
+!i113 1
+R6
+R7
+R8
+n@lab8_testbench
+vMultiplexer
+R9
+!i10b 1
+!s100 kQ_E@g:ZINRX@A4oI>Q:30
+R2
+IkD<f=<>L`@TVcWaF`X5;n1
+R3
+R0
+w1650825321
+8C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Multiplexer.v
+FC:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Multiplexer.v
+!i122 8
+L0 1 56
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Multiplexer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)|C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Multiplexer.v|
+!i113 1
+R6
+R7
+R8
+n@multiplexer
+vMux
+R1
+!i10b 1
+!s100 Y09V7Bm@C=:hG@3];db@52
+R2
+IdYQVcbm:<cO2Egm00bjB^0
+R3
+R0
+w1650731416
+8C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Mux.v
+FC:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Mux.v
+!i122 4
+Z11 L0 1 17
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)|C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Mux.v|
+!i113 1
+R6
+R7
+R8
+n@mux
+vPCID
+R1
+!i10b 1
+!s100 G3978Um0S>hS?`zgLb39U3
+R2
+Ihe7He6g=a5E<h<QzFBDNn3
+R3
+R0
+w1651426978
+8C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/PCID.v
+FC:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/PCID.v
+!i122 1
+L0 1 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/PCID.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)|C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/PCID.v|
+!i113 1
+R6
+R7
+R8
+n@p@c@i@d
+vProgramCounter
+R1
+!i10b 1
+!s100 JbBz=^5RDTDV4`8g@el=73
+R2
+I]Iz9PfG;@2Re6T^dI=Iz<0
+R3
+R0
+w1650731454
+8C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ProgramCounter.v
+FC:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ProgramCounter.v
+!i122 5
+L0 1 16
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ProgramCounter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)|C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ProgramCounter.v|
+!i113 1
+R6
+R7
+R8
+n@program@counter
+vRAM
+R9
+!i10b 1
+!s100 <Z6BNK>NGcPZhPN;K=Ul02
+R2
+I]ZGAUIG:T_io`DYNPMgZC2
+R3
+R0
+w1651434553
+8C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/RAM.v
+FC:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/RAM.v
+!i122 11
+R11
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/RAM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)|C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/RAM.v|
+!i113 1
+R6
+R7
+R8
+n@r@a@m
+vRegister
+R9
+!i10b 1
+!s100 7WeH>aH2lVG[GY4PnFIh=3
+R2
+ITP<Iod0dW5FRKYYfB`ia60
+R3
+R0
+w1650825376
+8C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Register.v
+FC:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Register.v
+!i122 9
+L0 1 18
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)|C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Register.v|
+!i113 1
+R6
+R7
+R8
+n@register
+vRegisterFile
+R9
+!i10b 1
+!s100 8hAAGD2bR6`FN04Gbml9V0
+R2
+IYM78leK<Wf1c^D7>eWkdY1
+R3
+R0
+w1651339037
+8C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/RegisterFile.v
+FC:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/RegisterFile.v
+!i122 10
+L0 1 67
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/RegisterFile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)|C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/RegisterFile.v|
+!i113 1
+R6
+R7
+R8
+n@register@file
+vROM
+R1
+!i10b 1
+!s100 clJ[MQD8KB6aCha3iUM]b2
+R2
+I_hDV7oR3lL`bblMd@1PZa3
+R3
+R0
+w1651494197
+8C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ROM.v
+FC:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ROM.v
+!i122 6
+L0 1 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)|C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ROM.v|
+!i113 1
+R6
+R7
+R8
+n@r@o@m

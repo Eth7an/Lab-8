@@ -1,0 +1,189 @@
+# Reading pref.tcl
+# do Lab8_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 8\ (Single\ Cycle\ Datapath) {C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Lab8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:59:56 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)" C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Lab8.v 
+# -- Compiling module Lab8
+# 
+# Top level modules:
+# 	Lab8
+# End time: 08:59:56 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 8\ (Single\ Cycle\ Datapath) {C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/PCID.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:59:56 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)" C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/PCID.v 
+# -- Compiling module PCID
+# 
+# Top level modules:
+# 	PCID
+# End time: 08:59:56 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 8\ (Single\ Cycle\ Datapath) {C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:59:56 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)" C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 08:59:56 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 8\ (Single\ Cycle\ Datapath) {C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/InstructionDecoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:59:56 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)" C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/InstructionDecoder.v 
+# -- Compiling module InstructionDecoder
+# 
+# Top level modules:
+# 	InstructionDecoder
+# End time: 08:59:56 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 8\ (Single\ Cycle\ Datapath) {C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:59:56 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)" C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Mux.v 
+# -- Compiling module Mux
+# 
+# Top level modules:
+# 	Mux
+# End time: 08:59:56 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 8\ (Single\ Cycle\ Datapath) {C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ProgramCounter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:59:56 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)" C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ProgramCounter.v 
+# -- Compiling module ProgramCounter
+# 
+# Top level modules:
+# 	ProgramCounter
+# End time: 08:59:56 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 8\ (Single\ Cycle\ Datapath) {C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ROM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:59:56 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)" C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/ROM.v 
+# -- Compiling module ROM
+# 
+# Top level modules:
+# 	ROM
+# End time: 08:59:56 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 8\ (Single\ Cycle\ Datapath) {C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:59:57 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)" C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Decoder.v 
+# -- Compiling module Decoder
+# 
+# Top level modules:
+# 	Decoder
+# End time: 08:59:57 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 8\ (Single\ Cycle\ Datapath) {C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Multiplexer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:59:57 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)" C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Multiplexer.v 
+# -- Compiling module Multiplexer
+# 
+# Top level modules:
+# 	Multiplexer
+# End time: 08:59:57 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 8\ (Single\ Cycle\ Datapath) {C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:59:57 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)" C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Register.v 
+# -- Compiling module Register
+# 
+# Top level modules:
+# 	Register
+# End time: 08:59:57 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 8\ (Single\ Cycle\ Datapath) {C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/RegisterFile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:59:57 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)" C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 08:59:57 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 8\ (Single\ Cycle\ Datapath) {C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/RAM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:59:57 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)" C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/RAM.v 
+# -- Compiling module RAM
+# 
+# Top level modules:
+# 	RAM
+# End time: 08:59:57 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 8\ (Single\ Cycle\ Datapath) {C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/immGen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:59:57 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)" C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/immGen.v 
+# -- Compiling module immGen
+# 
+# Top level modules:
+# 	immGen
+# End time: 08:59:57 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Lab\ 8\ (Single\ Cycle\ Datapath) {C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Lab8_testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:59:57 on May 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)" C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Lab8_testbench.v 
+# -- Compiling module Lab8_testbench
+# 
+# Top level modules:
+# 	Lab8_testbench
+# End time: 08:59:57 on May 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  Lab8_testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" Lab8_testbench 
+# Start time: 08:59:57 on May 03,2022
+# Loading work.Lab8_testbench
+# Loading work.Lab8
+# Loading work.PCID
+# Loading work.ProgramCounter
+# Loading work.ROM
+# Loading work.InstructionDecoder
+# Loading work.ALU
+# Loading work.Mux
+# Loading work.RegisterFile
+# Loading work.Decoder
+# Loading work.Multiplexer
+# Loading work.Register
+# Loading work.immGen
+# Loading work.RAM
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'fourAdder'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8_testbench/DUT/instructions/fourAdder File: C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/PCID.v Line: 24
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/PCID.v(24): [TFMPC] - Missing connection for port 'status'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'offsetAdder'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8_testbench/DUT/instructions/offsetAdder File: C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/PCID.v Line: 26
+# ** Warning: (vsim-3722) C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/PCID.v(26): [TFMPC] - Missing connection for port 'status'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Lab8_testbench.v(127)
+#    Time: 65 ps  Iteration: 0  Instance: /Lab8_testbench
+# Break in Module Lab8_testbench at C:/intelFPGA_lite/Lab 8 (Single Cycle Datapath)/Lab8_testbench.v line 127
+# End time: 10:49:03 on May 03,2022, Elapsed time: 1:49:06
+# Errors: 0, Warnings: 4
